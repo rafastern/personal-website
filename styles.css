@@ -140,7 +140,8 @@ a:hover {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
   line-height: 1.08;
   letter-spacing: 0;
@@ -163,6 +164,10 @@ h2 {
 
 h3 {
   font-size: 1.15rem;
+}
+
+h4 {
+  font-size: 1rem;
 }
 
 .hero-text {
@@ -361,6 +366,17 @@ figcaption {
   gap: 1rem;
 }
 
+.publication-groups {
+  display: grid;
+  gap: 2rem;
+}
+
+.publication-group h3 {
+  margin-bottom: 1rem;
+  color: var(--forest-dark);
+  font-size: 1.35rem;
+}
+
 .paper {
   display: grid;
   grid-template-columns: 86px minmax(0, 1fr);
@@ -376,9 +392,13 @@ figcaption {
   font-weight: 800;
 }
 
-.paper h3,
+.paper h4,
 .paper p {
   margin: 0;
+}
+
+.paper h4 {
+  line-height: 1.22;
 }
 
 .scholar-link {
