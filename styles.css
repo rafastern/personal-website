@@ -273,6 +273,7 @@ figcaption {
 
 .research-copy article,
 .card,
+.media-item,
 .paper,
 .contact-panel {
   border: 1px solid var(--line);
@@ -281,12 +282,14 @@ figcaption {
 }
 
 .research-copy article,
-.card {
+.card,
+.media-item {
   padding: 1.35rem;
 }
 
 .research-copy p,
 .card p,
+.media-item p,
 .paper p,
 .scholar-link,
 .split-copy,
@@ -359,6 +362,34 @@ figcaption {
   display: grid;
   gap: 1rem;
   font-size: 1.08rem;
+}
+
+.media-appearances {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.35rem;
+}
+
+.media-appearances h3 {
+  color: var(--forest-dark);
+}
+
+.media-item {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.media-item h4,
+.media-item p {
+  margin: 0;
+}
+
+.media-meta {
+  color: var(--clay);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .paper-list {
